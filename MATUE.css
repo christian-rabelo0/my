@@ -1,0 +1,42 @@
+body{ 
+    margin: 0;
+
+}
+h1{
+    text-align: center;
+}
+#img{
+    width: 47%;
+    height: 37%;
+    float: right;
+    
+    margin: 5 20px;
+}
+#guri{
+    font-size: 20px;
+    width: 49%;
+    text-align: justify;
+    padding-bottom: 50px;
+    margin: 20px;
+}
+#nn{
+    background-color: rgb(240, 240, 240);
+    padding: 10 0 0 10px;
+}
+@media screen and (max-width:800px){
+    .cearense{
+        width: 100%;
+    }
+    #img{
+        float: none;
+        width: 85%;
+        text-align: center;
+    }
+    #guri{ 
+        width: 85%;
+        text-align: center;
+    }
+    #nn{
+        padding: none;
+        
+}   
